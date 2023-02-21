@@ -2,6 +2,14 @@
 /* FONTS */
 /*  */
 @font-face {
+    font-family: "Lato-Light";
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: "Lato-Thin";
+    src: url(../fonts/Lato/Lato-Thin.ttf);
+}
+@font-face {
     font-family: "Lato-Regular";
     src: url(../fonts/Lato/Lato-Regular.ttf);
 }
@@ -17,34 +25,30 @@
 /*  */
 /* HEADER */
 /*  */
-
-    /*  */
-    /* HTML */
-    /*  */   
 header{
     background-color: #112E3E;
 }
 header li:not(:first-child){
-    border-left:  solid white;
+    border-left: 2px solid white;
     
 }
 header ul li{
-    padding: 0 2%;
+    padding: 0 3.5%;
 }
+
 .font{
     color: white;
     font-family: "Lato-Regular";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     line-height: 100%;
     padding: 0%;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
 }
 .font:hover{
     color: #edd154;
 }
-
 /*  */
 /* HEADER END */
 /*  */
@@ -53,29 +57,28 @@ header ul li{
 /*  */
 /* MAIN */
 /*  */
-
     /*  */
     /* CARROUSSEL */
     /*  */
-.carousel-item{
-    height: 75vh;
-}
+
 .renovPosition{
+    letter-spacing: 4px;
     position: absolute;
     display: inline-block;
-    left: 5%;
-    bottom: 700%;
-    font-family: "Lato-Bold";
+    left: -4%;
+    bottom: 850%;
+    font-family: "Lato-Light";
     font-weight: 700;
     font-size: 3rem;
 }
 .renovPosition2{
+    letter-spacing: 4px;
     position: absolute;
     display: inline-block;
-    left: 5%;
-    bottom: 540%;
-    font-family: "Lato-Bold";
-    font-weight: 400;
+    left: -4%;
+    bottom: 660%;
+    font-family: "Lato-Light";
+    font-weight: 700;
     font-size: 3rem;
     color: #edd154;
 }
@@ -86,9 +89,33 @@ header ul li{
     /*  */
     /* ENTERPRISE*/
     /*  */
-
-.padding{
-    padding: 3% 13%;
+.padding1{
+    padding: 3vh 0;
+}
+.padding2{
+    padding: 3vh 0;
+}
+.font1{
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+    font-family: "Lato-Regular";
+    font-weight: bolder;
+}
+.font2{
+    font-size: 1.6rem;
+    line-height: 25px;
+}
+.font3{
+    font-size: 1.2rem;
+}
+.btnperso{
+    background-color: #112E3E;
+    color: white;
+    font-family: "Lato-regular";
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin: 5vh 0 3vh;
 }
 
     /*  */
@@ -98,13 +125,40 @@ header ul li{
     /*  */
     /* RÉALISATION */
     /*  */
+.padding3{
+    padding: 7vh 0;
+}
     /*  */
     /* RÉALISATION END*/
     /*  */
 
-        /*  */
+    /*  */
     /* CONTACT */
     /*  */
+.padding4{
+    padding: 0 0 5vh;
+}
+.padding5{
+    padding: 5vh 0;
+}
     /*  */
     /* CONTACT END*/
     /*  */
+/*  */
+/* MAIN END*/
+/*  */
+
+
+/*  */
+/* FOOTER */
+/*  */
+footer{
+    background-color: #112E3E;
+}
+footer ul{
+    display: flex;
+}
+/*  */
+/* FOOTER END*/
+/*  */
+
