@@ -17,9 +17,7 @@
     font-family: "Lato-Bold";
     src: url(../fonts/Lato/Lato-Bold.ttf);
 }
-/*  */
-/* FONTS END */
-/*  */
+
 
 
 /*  */
@@ -30,13 +28,13 @@ header{
 }
 header li:not(:first-child){
     border-left: 2px solid white;
-    
 }
+
 header ul li{
     padding: 0 3.5%;
 }
 
-.font{
+.headernav{
     color: white;
     font-family: "Lato-Regular";
     font-weight: 400;
@@ -46,22 +44,18 @@ header ul li{
     padding: 0%;
     letter-spacing: 2.5px;
 }
-.font:hover{
+.headernav:hover{
     color: #edd154;
 }
-/*  */
-/* HEADER END */
-/*  */
-
 
 /*  */
 /* MAIN */
 /*  */
-    /*  */
-    /* CARROUSSEL */
-    /*  */
+/*  */
+/* CAROUSEL */
+/*  */
 
-.renovPosition{
+.carouselTitle1{
     letter-spacing: 4px;
     position: absolute;
     display: inline-block;
@@ -71,7 +65,7 @@ header ul li{
     font-weight: 700;
     font-size: 3rem;
 }
-.renovPosition2{
+.carouselTitle2{
     letter-spacing: 4px;
     position: absolute;
     display: inline-block;
@@ -82,32 +76,35 @@ header ul li{
     font-size: 3rem;
     color: #edd154;
 }
-    /*  */
-    /* CARROUSSEL END*/
-    /*  */
 
-    /*  */
-    /* ENTERPRISE*/
-    /*  */
-.padding1{
+/*  */
+/* ENTERPRISE*/
+/*  */
+
+
+.enterpriseTop{
     padding: 3vh 0;
 }
-.padding2{
-    padding: 3vh 0;
-}
-.font1{
+
+.enterpriseTopTitle{
     letter-spacing: 1px;
     font-size: 2.3rem;
     font-family: "Lato-Regular";
     font-weight: bolder;
 }
-.font2{
+#enterprise h3{
+    margin-top: 20px;
+}
+
+.enterpriseTopSubTitle{
     font-size: 1.6rem;
     line-height: 25px;
 }
-.font3{
+
+.enterpriseTopParagraphe{
     font-size: 1.2rem;
 }
+
 .btnperso{
     background-color: #112E3E;
     color: white;
@@ -118,47 +115,71 @@ header ul li{
     margin: 5vh 0 3vh;
 }
 
-    /*  */
-    /* ENTERPRISE END*/
-    /*  */
-
-    /*  */
-    /* RÉALISATION */
-    /*  */
-.padding3{
-    padding: 7vh 0;
-}
-    /*  */
-    /* RÉALISATION END*/
-    /*  */
-
-    /*  */
-    /* CONTACT */
-    /*  */
-.padding4{
-    padding: 0 0 5vh;
-}
-.padding5{
-    padding: 5vh 0;
-}
-    /*  */
-    /* CONTACT END*/
-    /*  */
 /*  */
-/* MAIN END*/
+/* RÉALISATION */
 /*  */
 
+#achievement h3{
+    margin-top: 20px;
+}
+.achievements{
+    padding: 5rem 0;
+}
+
+/*  */
+/* CONTACT */
+/*  */
+
+#contact h3 {
+    margin-top: 20px;
+}
+.contactTop{
+    padding: 3rem 0 5rem;
+}
+.contactSubSTop{
+    padding: 1rem 0;
+}
+.contactTitle{
+    padding: 5%;
+}
+.contactParagraphe{
+    line-height: 3%;
+}
 
 /*  */
 /* FOOTER */
 /*  */
 footer{
     background-color: #112E3E;
+    padding: 2rem 3rem;
+    color: white;
 }
 footer ul{
     display: flex;
 }
-/*  */
-/* FOOTER END*/
-/*  */
-
+footer img{
+    width: 90%;
+}
+.footerMiddle{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    margin-right: 4rem;
+    
+}
+footer ul>li{
+    list-style: none;
+    
+}
+.footerRight{
+    width: 25%;
+    padding: 1rem 1rem;
+    border-left: 2px solid white;
+    line-height: 100%;
+}
+.footerRight img{
+    width: 50px;
+    padding: 0 5px;
+}
+footer ul{
+    padding: 0;
+}
