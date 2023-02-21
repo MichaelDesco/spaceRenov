@@ -54,13 +54,16 @@ header ul li{
 /*  */
 /* CAROUSEL */
 /*  */
-
+#carousel img{
+    height: 500px;
+    object-fit: cover;
+}
 .carouselTitle1{
     letter-spacing: 4px;
     position: absolute;
     display: inline-block;
     left: -4%;
-    bottom: 850%;
+    bottom: 730%;
     font-family: "Lato-Light";
     font-weight: 700;
     font-size: 3rem;
@@ -70,7 +73,7 @@ header ul li{
     position: absolute;
     display: inline-block;
     left: -4%;
-    bottom: 660%;
+    bottom: 560%;
     font-family: "Lato-Light";
     font-weight: 700;
     font-size: 3rem;
